@@ -1,0 +1,164 @@
+body {
+    background-color: #1690A7;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+form {
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    margin-left: 34%;
+    margin-top: 15%;
+}
+
+button {
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label {
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#allocateworkslotbox {
+    text-align: center;
+}
+
+#allocateworkslot {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.usersearchbidform input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+}
+
+.usersearchbidform button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+.workslot {
+    margin: 20px auto;
+    width: 90%;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.deletetable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+.headerrow {
+    background-color: #333;
+    color: #fff;
+}
+
+.headerrow th {
+    padding: 10px;
+}
+
+.tablebody {
+    background-color: #f9f9f9;
+}
+
+.tablebody td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#ca {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #444;
+    margin-right: 360px;
+}
+
+#ca:hover {
+    text-decoration: underline;
+}
+
+.calendar-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.selected {
+    background-color: #007BFF; /* Change this to the desired background color */
+    color: #FFFFFF; /* Change this to the desired text color */
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.success {
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
